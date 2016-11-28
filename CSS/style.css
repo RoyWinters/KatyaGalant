@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Tinos&subset=latin-ext');
+
+body {
+    background-color: dodgerblue;
+    background: url(/imgs/backgroundphoto.jpg);
+    font-family: 'Tinos', 'Times New Roman', serif;
+    font-size: 20px;
+    line-height: 1.5em;
+}
+
+header {
+    width: 100%;
+    height: 40px;
+    background-color: #449deb;
+    border-bottom: 1px solid #2a8ee6;
+    position: relative;
+}
+
+header div {
+    width: 720px;
+    height: 40px;
+    margin: 0 auto;
+}
+
+header h1 a {
+    text-decoration: none;
+    color: black;
+}
+
+header h1 {
+    display: block;
+    margin: 0px auto;
+    height: 40px;
+    font-family: 'Merriweather', serif;
+    font-size: 29px;
+    position: absolute;
+}
+
+div#main {
+    width: 760px;
+    height: 2001px;
+    margin: 0 auto;
+    background: #eaeaea;
+    border: 1px solid #e2e2e2;
+    border-top: none;
+    box-shadow: 0px 10px 0px 10px rgba(244, 244, 244, 0.67);
+    position: relative;
+    z-index: 1;
+}
+
+#main footer {
+    position: absolute;
+    bottom: 0px;
+    height: 40px;
+    width: 100%;
+    background: #449deb;
+    border-top: 1px solid #2a8ee6; 
+    z-index: 2;
+}
+
+#main footer p {
+    margin-left: 20px;
+}
+
+/*profile start*/
+
+#profile {
+    position: absolute;
+    padding: 10px;
+}
+
+div#profile img {
+    width: 300px;
+    float: left;
+    margin: 20px;
+    margin-top: 0px;
+    border: 5px solid white;
+    border-radius: 20px;
+}
+
+#profile blockquote {
+    font-size: 14px;
+    float: right;
+    background: #f7f7f7;
+    border-left: 1px solid #bbb;
+    font-style: italic;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+}
+
+/*profile end / reference start*/
+
+div#reference {
+    background: #fff;
+    margin-top: 250px;
+    width: 100%;
+    position: absolute;
+}
+
+div#reference ul {
+    clear: left;
+    height: 50px;
+}
+
+div#reference ul li {
+    float: right;
+}
+
+div#reference ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 0 30px;
+    line-height: 50px;
+    display: block;
+}
+
+div#reference ul li a:hover{
+    background: #449deb;
+    text-decoration: underline;
+}
+
+.panelArea {
+    top: 300px;
+    position: absolute;
+    width: 760px;
+}
+
+#headertitle {
+    position: absolute;
+}
+
+h2 {
+    font-size: 25px;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Josefin Sans', 'Times New Roman', serif;
+}
+
+/*reference end / mainpage start*/
+
+#headertitle li {
+    float: left;
+}
+
+#headertitle  li p {
+    text-align: center;
+}
+
+#headertitle a{
+    color: black;
+    text-decoration: none;
+}
+
+#headertitle ul li img {
+    width: 170px;
+    border: 1px solid white;
+    border-radius: 20px;
+    transition: 0.2s;
+    margin: 9px;
+}
+
+#headertitle ul li img:hover {
+    width: 188px;
+    margin: 0;
+}
+
+.panelArea h3 {
+    text-align: center;
+}
+
+.galery {
+    top: 300px;
+    position: absolute;
+    width: 100%;
+}
+
+.galery li {
+    float: left;
+}
+
+.galery img {
+    width: 140px;
+    margin: 6px;
+}
+/*display seasons panel none*/
+#autumnpanel {
+    display: none;
+}
+
+#summerpanel {
+    display: none;
+}
+
+#springpanel {
+    display: none;
+}
+
+#winterpanel {
+    display: none;
+}
+/*mainpage end*/
+
+#portfoliopage ul {
+    width: 100%;
+}
+#portfoliopage ul li {
+    float: left;
+}
+
+#portfoliopage ul li img {
+    width: 120px;
+    margin: 10px;
+}
+
+/*
+#mainpage {
+    display: none;
+}*/
+
+#portfoliopage {
+    display: none;
+}
+
+#contactspage {
+    display: none;
+}
+
+#contactspage ul li {
+    margin: 50px;
+}
+
+#contactspage ul li a {
+    text-decoration: none;
+    color: #434343;
+}
+
+#contactspage ul li a img{
+    float: left;
+    width: 50px;
+    margin-right: 40px;
+}
+
+/*open imgs in full*/
+#seasons img {
+    transition: 0.4s;
+}
+
+#seasons img:hover {
+    box-shadow: #7abefa 0 0 4px 8px;
+}
+
+#portfoliopage img {
+    transition: 0.4s;
+}
+
+#portfoliopage img:hover {
+    box-shadow: #7abefa 0 0 4px 7px;
+}
+
